@@ -1,0 +1,11 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #18352d; background: #f5f8f6; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.7; }
+main { max-width: 780px; margin: 48px auto; padding: 36px; background: white; border: 1px solid #dde7e1; border-radius: 16px; }
+nav { display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 32px; }
+a { color: #176b4b; text-underline-offset: 4px; overflow-wrap: anywhere; }
+h1 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 16px; }
+h2 { font-size: 1.3rem; margin-top: 32px; }
+.muted, footer { color: #526a60; }
+footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #dde7e1; }
+@media (max-width: 600px) { main { margin: 16px; padding: 24px; } h1 { font-size: 1.8rem; } }
